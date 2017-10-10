@@ -1,12 +1,12 @@
 {
   "name": "stylelint-config-joyent-portal",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MPL-2.0",
   "repository": "github:yldio/stylelint-config-joyent-portal",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --fix",
-    "fmt": "prettier --write --single-quote *.js"
+    "fmt": "prettier --write --single-quote index.js"
   },
   "dependencies": {
     "stylelint-config-standard": "^17.0.0",
@@ -14,6 +14,20 @@
     "stylelint-processor-styled-components": "^1.0.0"
   },
   "devDependencies": {
-    "prettier": "^1.7.0"
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-config-joyent-portal": "^3.1.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-config-xo-space": "^0.16.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "prettier": "^1.7.4"
+  },
+  "peerDependencies": {
+    "stylelint": "^8.2.0"
   }
 }
