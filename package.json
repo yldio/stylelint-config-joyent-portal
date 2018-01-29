@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-joyent-portal",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "license": "MPL-2.0",
   "repository": "github:yldio/stylelint-config-joyent-portal",
   "main": "index.js",
